@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <h1>Atividade Javascript 1</h1>
+
+    <form action="">
+       <div class="main">
+    <div><label for="">Nome</label></div>
+    <div><input type="text"></div>
+</div> <br>
+
+<div class="main">
+    <div><label for="">Endreço</label></div>
+    <div><input type="text"></div>
+</div> <br>
+
+<div class="main"> 
+    <div><label for="">CEP</label></div>
+    <div><input type="text" id="cep" oninput=mascara_cep() maxlength="9"></div>
+</div> <br>
+
+<div class="main">
+    <div><label for="">CPF</label></div>
+    <div><input type="text" id="cpf" oninput=mascara_cpf() maxlength="14"></div>
+</div> <br>
+
+<div class="main">
+    <div><label for="">Telefone</label></div>
+    <div><input type="tel" id="telefone"  oninput=mascara_telefone() maxlength="14"></div>
+</div> <br>
+
+<div class="main">
+    <div><label for="">CNPJ</label></div>
+    <div><input type="text" id="cnpj" maxlength="18"></div>
+</div> <br>
+
+<div class="main">
+    <div><label for="">Código</label></div>
+    <div><input type="text" id="cdg" maxlength="20"></div>
+</div> <br> 
+    </form>
+<a href="index2.html"><button>Confirmar</button></a>
+</body>
+<script src="script.js"></script>
+</html>

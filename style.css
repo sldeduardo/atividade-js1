@@ -1,0 +1,10 @@
+.main{display: grid;
+    grid-template-columns:200px 600px;
+    grid-template-rows: repeat(2, 350px) ;
+height: 30px;}
+.main div {
+    border: solid 1px;
+height: 30px;}
+h1{text-align: center;}
+input{width: 590px;
+height: 25px;}
